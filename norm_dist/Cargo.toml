@@ -1,0 +1,10 @@
+[package]
+name = "norm_dist"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+plotters={git="https://github.com/38/plotters.git"}
+rand={git="https://github.com/rust-random/rand.git"}
